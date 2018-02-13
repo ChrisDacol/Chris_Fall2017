@@ -1,0 +1,56 @@
+/*
+Theme Name: [Chris' Child 2012 Theme]
+Description: Child theme based on twentytwelve
+Author: Me
+Version:1.0
+Template:twentytwelve 
+*/
+
+@import url('../twentytwelve/style.css');
+@import url('https://fonts.googleapis.com/css?family=Joti+One');
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
+
+/* Full width pages */
+
+.side-content-wide {
+	background-color: purple;
+	width:100%;
+}
+
+/* Site Header */
+.site-title {
+	font-family: 'Rubik Mono One', sans-serif;
+	
+}
+
+.site-header h1 a {
+		font-family: 'Rubik Mono One';
+}
+
+.site-header {
+	background-color: lightgrey;
+}
+
+
+
+
+/* Main Title Text */
+
+
+/* End Main Title Text */
+
+
+
+/* Main Nav Text */
+
+
+/* End Main Nav Text */
+
+
+
+
+/* Footer Text */
+
+
+/* End Footer Text */
+
