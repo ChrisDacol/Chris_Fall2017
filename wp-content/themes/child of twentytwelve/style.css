@@ -85,7 +85,6 @@ Template:twentytwelve
     color: #ffffff;
 }
 
-
 /* End Main Nav Dropdown */
 
 
@@ -102,7 +101,14 @@ body{
 	background-color: #000000;
 }
 
-/* End PAge Body */
+
+.entry-header .entry-title a {
+	font-family: 'Russo One', sans-serif;
+	color: #a94444;
+
+}
+
+/* End Page Body */
 
 
 
