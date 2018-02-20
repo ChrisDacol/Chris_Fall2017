@@ -7,7 +7,7 @@ Template:twentytwelve
 */
 
 @import url('../twentytwelve/style.css');
-@import url('https://fonts.googleapis.com/css?family=Joti+One');
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
 @import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
 
 /* Full width pages */
@@ -20,6 +20,8 @@ Template:twentytwelve
 /* Site Header */
 .site-title {
 	font-family: 'Rubik Mono One', sans-serif;
+	color: #ffffff;
+	padding-left: 10px
 	
 }
 
@@ -28,23 +30,79 @@ Template:twentytwelve
 }
 
 .site-header {
-	background-color: lightgrey;
+	background-color: #3f51b5;
 }
 
-
+.site-header h2 {
+	font-family: 'Russo One', sans-serif;
+	color: #e16b6b;
+	padding-left: 10px;
+}
 
 
 /* Main Title Text */
 
 
+.site-header h1 a, .site-header h2 a {
+	color: #7a77ef;
+}
+
+.site-header h1 a:hover, .site-header h2 a:hover {
+	color: #a1cff8;
+
+}
 /* End Main Title Text */
 
 
 
 /* Main Nav Text */
+.main-navigation li a {
+	font-family: 'Russo One', sans-serif;
 
+	color: #ffffff;
+	padding-left: 10px;
+}
+
+.main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a, .main-navigation .current_page_item > a, .main-navigation .current_page_ancestor > a {
+	color: #f12d2d ;
+}
+
+.main-navigation li a:hover, .main-navigation li a:focus {
+	color: #5bb2ff;
+}
 
 /* End Main Nav Text */
+
+/* Main Nav Dropdown */
+
+.main-navigation li ul li a {
+	    background: #6c88da;
+    border-bottom: 1px solid #ededed;
+}
+
+.main-navigation li ul li a:hover, .main-navigation li ul li a:focus {
+	background: #eb5b9c;
+    color: #ffffff;
+}
+
+
+/* End Main Nav Dropdown */
+
+
+
+
+
+/* Page Body */
+
+body{
+	color: #daf9fb;
+}
+
+.site {
+	background-color: #000000;
+}
+
+/* End PAge Body */
 
 
 
