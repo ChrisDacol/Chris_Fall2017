@@ -10,33 +10,59 @@ Template:twentytwelve
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
 @import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
 
+
+
+
+
+
 /* Full width pages */
 
-.side-content-wide {
-	background-color: purple;
-	width:100%;
+body .site {
+max-width: 100%;
+
 }
+
+
+
+/* Width of posts */
+
+.side-content-wide {
+	width:70%;
+}
+
+#primary {
+	width:70%;
+}
+
+
+
 
 /* Site Header */
 .site-title {
 	font-family: 'Rubik Mono One', sans-serif;
-	color: #ffffff;
+	color: #a03a5c;
+	text-shadow: 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72;
 	padding-left: 10px
 	
 }
 
 .site-header h1 a {
-		font-family: 'Rubik Mono One';
+	font-family: 'Rubik Mono One';
 }
 
 .site-header {
 	background-color: #3f51b5;
+	background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0)), url(imgs/mountain.jpg);
+    background-repeat: repeat-x;
+    margin-top: 10px;
+    border-radius: 10px;
+}
 }
 
 .site-header h2 {
 	font-family: 'Russo One', sans-serif;
 	color: #e16b6b;
-	padding-left: 10px;
+	margin-left: 20px;
 }
 
 
@@ -56,9 +82,13 @@ Template:twentytwelve
 
 
 /* Main Nav Text */
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+	background: linear-gradient(to right, rgba(9,51,90,0), rgba(9,15,57,1), rgba(0,0,0,0));
+	
+}
+
 .main-navigation li a {
 	font-family: 'Russo One', sans-serif;
-
 	color: #ffffff;
 	padding-left: 10px;
 }
@@ -71,12 +101,25 @@ Template:twentytwelve
 	color: #5bb2ff;
 }
 
+
+/* Head Nav Borders */
+
+
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+    border-bottom: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    display: inline-block !important;
+    text-align: left;
+    width: 100%; 
+}
+
+
 /* End Main Nav Text */
 
 /* Main Nav Dropdown */
 
 .main-navigation li ul li a {
-	    background: #6c88da;
+	background: #6c88da;
     border-bottom: 1px solid #ededed;
 }
 
@@ -99,6 +142,8 @@ body{
 
 .site {
 	background-color: #000000;
+	background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,1)), url(imgs/black_cloud_bg_1.jpg);
+    background-repeat: repeat;
 }
 
 
